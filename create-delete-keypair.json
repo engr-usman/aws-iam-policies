@@ -1,0 +1,16 @@
+{
+    "Version": "2012-10-17",
+    "Statement": [
+        {
+            "Sid": "VisualEditor0",
+            "Effect": "Allow",
+            "Action": [
+                "ec2:ImportKeyPair",
+                "ec2:CreateKeyPair",
+                "ec2:DescribeKeyPairs",
+                "ec2:DeleteKeyPair"
+            ],
+            "Resource": "*"
+        }
+    ]
+}
